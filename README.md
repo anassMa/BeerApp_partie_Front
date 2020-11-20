@@ -1,18 +1,35 @@
+# Webapp partie Frontend : react 
 
-pour installer les packages 
-1-npm install 
+# Goal:
+
+User enters a name then he can see the list of beers containing this name. 
+
+Beer list should at least include a name, description and an image.
+
+When user clicks on an item of the list, he can see the detail of it (alcohol percentage,
+ingredient,...)
+
+Beer api : ​ https://punkapi.com/documentation/v2
 
 
-pour lancer l'application 
+# Prerequisites:
+
+node
+npm
+bootstrap
+redux
+
+# Steps:
+
+1. npm install
+
+2. npm start 
+
+
+
+
 2-npm start 
 
-3-tu dois changer MOVIE_API_URL par l'url te3 spring boot dialek pour afficher tt les beer 
-dans le fichier App.js  
-
-4- dans la fonction searchvalue dans le fichier App.js bedel l'url li kayenna dans  axios(`https://www.omdbapi.com/?s=${searchValue}&apikey=4a3b711b`)  et placer nom=${searchValue} dans tn url spring boot
 
 
-5- theb tzidde une autre fonctionnalité zideha dakhel store/reducer/index.js
 
-
-6 - bedel aussi movie.js dirre beer.js temma genre c'est un item de tableau d'affichage bedel ghir asseme les attribut <h2>{movie.Title}</h2> bedel b <h2>{movie.name}</h2># front_beer
