@@ -1,47 +1,18 @@
-# Hooks Movie App
-This is the demo application using React Hooks!!!
 
-The article containing instructions on how to build this app can be found [here](https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/)
+pour installer les packages 
+1-npm install 
 
-# Getting Started
-These instructions should get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Prerequisites
-Things you need to get started:
-- A recent version of Node running on your machine (8.0 or higher), check this [link](https://nodejs.org/en/download/) to download it.
-- A cool text editor, I recommend using either [VSCode](https://code.visualstudio.com/download) or [Atom(with the nuclide plugin)](https://nuclide.io/docs/editor/setup/)
+pour lancer l'application 
+2-npm start 
 
-# Installing
-To get the project running, follow these steps:
-- Create a folder
--Enter/Navigate into that folder
-```
-cd <folder-name>
-```
+3-tu dois changer MOVIE_API_URL par l'url te3 spring boot dialek pour afficher tt les beer 
+dans le fichier App.js  
 
-- Clone this repository:
-```
-git clone https://github.com/samie820/hooks-movie-app.git
-```
+4- dans la fonction searchvalue dans le fichier App.js bedel l'url li kayenna dans  axios(`https://www.omdbapi.com/?s=${searchValue}&apikey=4a3b711b`)  et placer nom=${searchValue} dans tn url spring boot
 
-- Install all the project's dependencies:
-```
-yarn or npm install
-```
-- Once that's done, run the project:
-```
-npm start or yarn start
-```
 
-# Deployment
-The app can be deployed using either heroku or Netlify
+5- theb tzidde une autre fonctionnalité zideha dakhel store/reducer/index.js
 
-# Built With
-- Javascript
-- React - (UI library)
 
-# Contribution
-Please read the [CONTRIBUTING.md](#) file (Soon to be added) to see how you can contribute and add more features to the project.
-
-# Authors
-TODO: Add the Authors
+6 - bedel aussi movie.js dirre beer.js temma genre c'est un item de tableau d'affichage bedel ghir asseme les attribut <h2>{movie.Title}</h2> bedel b <h2>{movie.name}</h2># front_beer
