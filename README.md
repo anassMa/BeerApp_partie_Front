@@ -15,20 +15,19 @@ Beer api : ​ https://punkapi.com/documentation/v2
 # Prerequisites:
 
 node
+
 npm
+
 bootstrap
+
 redux
 
 # Steps:
 
-1. npm install
+npm install
 
-2. npm start 
+npm start 
 
-
-
-
-2-npm start 
 
 
 
